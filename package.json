@@ -4,6 +4,14 @@
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wearethreebears/ohto-dom-element-props.git"
+  },
   "scripts": {
     "pregenerate": "tsc -p tsconfig.scripts.json",
     "generate": "node dist-scripts/generate-elements.js",
